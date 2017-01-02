@@ -4,7 +4,7 @@
   "description": "Handlebars asynchronous file system compiler and rendering engine with simple interface",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   "homepage": "https://github.com/reykjavikingur/node-handlebars-directory#readme",
   "dependencies": {
     "handlebars": "^4.0.6",
+    "promise": "^7.1.1",
     "web-template-file-tree": "^1.1.0"
   },
   "devDependencies": {

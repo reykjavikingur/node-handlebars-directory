@@ -1,0 +1,8 @@
+{{#>layout}}
+
+Hello from the Handlebars directory.
+My name is {{name}}.
+
+{{>copyright}}
+
+{{/layout}}

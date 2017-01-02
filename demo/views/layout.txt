@@ -1,0 +1,3 @@
+Welcome
+{{>@partial-block}}
+End
